@@ -11,4 +11,5 @@ urlpatterns = [
     path('task-delete/<str:pk>', views.taskDelete,name='task-delete'),
 
     path('teams/', views.teams,name='teams'),
+    path('fixtures/', views.fixtures,name='fixtures'),
 ]
